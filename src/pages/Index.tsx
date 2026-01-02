@@ -90,7 +90,7 @@ const Index = () => {
 
       <main className="container mx-auto px-4 py-8">
         <Tabs value={activeTab} onValueChange={setActiveTab} className="space-y-8">
-          <TabsList className="grid w-full grid-cols-8 bg-muted/50 p-1 rounded-2xl">
+          <TabsList className="grid w-full grid-cols-4 grid-rows-2 gap-2 bg-muted/50 p-2 rounded-2xl h-auto">
             <TabsTrigger value="home" className="rounded-xl data-[state=active]:bg-gradient-to-r data-[state=active]:from-primary data-[state=active]:to-secondary data-[state=active]:text-white">
               <Icon name="Home" className="mr-2" size={18} />
               Главная
